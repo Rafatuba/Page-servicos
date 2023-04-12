@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'inter', 'sans-serif';
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url(./assets/img/assortment-painting-items-with-yellow-paint.jpg);
+  background-size: cover;
+  max-width: 1080px;
+  transition: 0.4s;
+}
+
+.cabecalho {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  padding: 50px 0 50px 70px;
+}
+
+.titulo {
+  font-size: 50px;
+}
+
+.subtitulo {
+  font-size: 18px;
+  padding: 5px 300px 0 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  gap: 20px;
+  background-color: #FFF;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 20px 10px;
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card-titulo {
+  font-size: 18px;
+  color: #dbcd09;
+}
+
+.card-texto {
+  font-size: 16px;
+  color: rgb(88, 91, 94);
+  padding-bottom: 10px;
+  font-style: italic;
+  padding: 0 15px;
+}
+
+.card img {
+  width: 250px;
+}
+
+.botao-dark {
+  width: 40px;
+  position: fixed;
+  display: block;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  margin: 20px 20px 0 0;
+  background-color: #dbcd09;
+  border-radius: 50px;
+}
+
+.botao-dark:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.dark {
+  background-image: url(./assets/img/paintroller-para-reparos-isolados-no-fundo-preto-em-tintas-amarelas.jpg);
+  background-color: rgb(29, 27, 27);
+  color: #FFF;
+  transition: 0.4s;
+}
